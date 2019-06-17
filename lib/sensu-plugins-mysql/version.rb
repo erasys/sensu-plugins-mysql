@@ -4,6 +4,6 @@ module SensuPluginsMySql
     MINOR = 1
     PATCH = 1
 
-    VER_STRING = [MAJOR, MINOR, PATCH].compact.join('.')
+    VER_STRING = [MAJOR, MINOR, PATCH].compact.join('.').concat('.pre.lfptest.5')
   end
 end
